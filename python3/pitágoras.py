@@ -1,0 +1,11 @@
+import math
+resposta1=input("Cal é o 1º cateto?    ")
+resposta2=input("Cal é o 2º cateto?   ")
+resposta1=int(resposta1)
+resposta2=int(resposta2)
+print("A túa hipotenusa é")
+cateto1=(resposta1*resposta1)
+cateto2=(resposta2*resposta2)
+cateto1=int(cateto1)
+cateto2=int(cateto2)
+print(math.sqrt(cateto1+cateto2))

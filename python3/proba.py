@@ -1,0 +1,13 @@
+import math
+resposta1 = input("Cal é o 1º número?")
+resposta2 = input("Cal é o 2º número?")
+resposta1 = int(resposta1)
+resposta2 = int(resposta2)
+print("A suma dos teus números é")
+print(resposta1+resposta2)
+print("A resta dos teus números é")
+print(resposta1-resposta2)
+print("O resultado dos teus números multiplicados é")
+print(resposta1*resposta2)
+print("O resultado dos teus números divididos é")
+print(resposta1/resposta2)
